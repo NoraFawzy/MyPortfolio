@@ -4,6 +4,7 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -20,15 +21,29 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import bootstrap from "./tech/bootstrap.png";
+import sql from "./tech/sql.png";
+import php from "./tech/php.png";
+import laravel from "./tech/laravel.png";
+import mysql from "./tech/mysql.png";
+import postman from "./tech/postman.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import isekai from "./company/isekai.jpeg";
+import depi from "./company/depi.jpeg";
+import nti from "./company/nti.jpeg";
+import alumasr from "./company/alumasr.jpeg";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import sakkny from "./sakkny.jpeg";
+import arabic_mastery from "./arabic_mastery.jpeg";
+import clinic from "./clinic.jfif";
+
 
 export {
   logo,
@@ -59,4 +74,17 @@ export {
   carrent,
   jobit,
   tripguide,
+  bootstrap,
+  sql,
+  php,
+  laravel,
+  mysql,
+  postman,
+  sakkny,
+  arabic_mastery,
+  clinic,
+  isekai,
+  depi,
+  nti,
+  alumasr
 };

@@ -23,6 +23,19 @@ import {
   jobit,
   tripguide,
   threejs,
+  bootstrap,
+  sql,
+  php,
+  laravel,
+  mysql,
+  postman,
+  sakkny,
+  arabic_mastery,
+  clinic,
+  isekai,
+  depi,
+  nti,
+  alumasr
 } from "../assets";
 
 export const navLinks = [
@@ -42,21 +55,22 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Front-End Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
+    title: "React.js Specialist",
+    icon: mobile, // consider an icon representing React or front-end work
   },
   {
-    title: "Backend Developer",
-    icon: backend,
-  },
-  {
-    title: "Content Creator",
+    title: "UI/UX Enthusiast",
     icon: creator,
   },
+  {
+    title: "PHP & Laravel Developer",
+    icon: backend, // you may choose a unique icon to represent backend or PHP work
+  },
+
 ];
 
 const technologies = [
@@ -72,34 +86,34 @@ const technologies = [
     name: "JavaScript",
     icon: javascript,
   },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
+  // {
+  //   name: "TypeScript",
+  //   icon: typescript,
+  // },
   {
     name: "React JS",
     icon: reactjs,
   },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
+  // {
+  //   name: "Redux Toolkit",
+  //   icon: redux,
+  // },
   {
     name: "Tailwind CSS",
     icon: tailwind,
   },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
+  // {
+  //   name: "Node JS",
+  //   icon: nodejs,
+  // },
+  // {
+  //   name: "MongoDB",
+  //   icon: mongodb,
+  // },
+  // {
+  //   name: "Three JS",
+  //   icon: threejs,
+  // },
   {
     name: "git",
     icon: git,
@@ -108,106 +122,130 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
+  // {
+  //   name: "docker",
+  //   icon: docker,
+  // },
   {
-    name: "docker",
-    icon: docker,
+    name: "Bootstrap",
+    icon: bootstrap, 
   },
+  {
+    name: "SQL",
+    icon: sql,
+  },
+  {
+    name: "PHP",
+    icon: php,
+  },
+  {
+    name: "Laravel",
+    icon: laravel, 
+  },
+  {
+    name: "MySQL",
+    icon: mysql,
+  },
+  {
+    name: "Postman",
+    icon: postman, 
+  },
+
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Front-End Developer (React.js)",
+    company_name: "ISEKAI Code Company",
+    icon: isekai, // replace with appropriate icon
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "October 2024 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Worked on large-scale, real-world projects, enhancing practical skills in React.js.",
+      "Collaborated with a professional development team on complex projects, refining front-end development expertise.",
+      "Focused on creating interactive, user-centered applications with a strong emphasis on performance and scalability.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "PHP Laravel Developer Intern",
+    company_name: "DEPI",
+    icon: depi, // replace with appropriate icon
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date:"July 2024 - October 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed web applications using PHP and the Laravel framework, following best practices for back-end development.",
+      "Gained hands-on experience with MySQL, JavaScript, and other foundational web technologies.",
+      "Collaborated with team members to analyze user requirements and implement features that meet project goals.",
+      "Enhanced my skills in managing databases and optimizing server-side code.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Web Design Trainee",
+    company_name: "National Telecommunications Institute (NTI)",
+    icon: nti, // replace with appropriate icon
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "July 2024 - August 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Completed a comprehensive web design training program under the Ministry of Communications and Information Technology.",
+      "Developed responsive websites using HTML5, CSS, JavaScript, and Bootstrap.",
+      "Enhanced skills in modern web development practices and user-friendly interface design.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "ERP Intern",
+    company_name: "ALUMISR Company",
+    icon: alumasr, 
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "July 2023 - August 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Gained experience with SAP Business One modules including Purchasing, Sales, Banking, and Warehouses.",
+      "Developed and optimized SQL queries for data retrieval and manipulation.",
+      "Created diverse reports using Crystal Reports, enhancing reporting and data analysis skills.",
+      "Built foundational IT knowledge in ERP systems and business operations.",
     ],
   },
 ];
 
 const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
+  // {
+  //   testimonial:
+  //     "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+  //   name: "Sara Lee",
+  //   designation: "CFO",
+  //   company: "Acme Co",
+  //   image: "https://randomuser.me/api/portraits/women/4.jpg",
+  // },
+  // {
+  //   testimonial:
+  //     "I've never met a web developer who truly cares about their clients' success like Rick does.",
+  //   name: "Chris Brown",
+  //   designation: "COO",
+  //   company: "DEF Corp",
+  //   image: "https://randomuser.me/api/portraits/men/5.jpg",
+  // },
+  // {
+  //   testimonial:
+  //     "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+  //   name: "Lisa Wang",
+  //   designation: "CTO",
+  //   company: "456 Enterprises",
+  //   image: "https://randomuser.me/api/portraits/women/6.jpg",
+  // },
 ];
 
 const projects = [
+  
   {
-    name: "Car Rent",
+    name: "Housing APP",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A real-world project aimed at helping university students find suitable housing. Property owners can list their properties, providing a seamless experience for both tenants and property owners.",
     tags: [
       {
-        name: "react",
+        name: "react.js",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "next.js",
         color: "green-text-gradient",
       },
       {
@@ -215,51 +253,50 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: sakkny, // replace with an actual image of the project if available
+    source_code_link: "https://www.sakkny.elda7e7.com/", // replace with the actual repository link
+    live_demo_link: "https://www.sakkny.elda7e7.com/", // link to the live project
   },
   {
-    name: "Job IT",
+    name: "ISEKAI Clinic ERP",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "An ERP system for clinics and medical centers, designed to streamline clinic operations. Features include patient bookings, medical history, inventory management, and appointment scheduling.",
     tags: [
       {
-        name: "react",
+        name: "react.js",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "tailwind",
         color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: clinic, // replace with an actual image of the project if available
+    source_code_link: "https://github.com/", // replace with the actual repository link if available
   },
   {
-    name: "Trip Guide",
+    name: "Arabic Mastery",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A comprehensive web application designed to teach Arabic, Tajweed, and Islamic Studies. It features structured lessons, exercises, and assessments in an interactive and user-friendly interface.",
     tags: [
       {
-        name: "nextjs",
+        name: "react.js",
         color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
       },
       {
         name: "css",
         color: "pink-text-gradient",
       },
+      {
+        name: "javascript",
+        color: "green-text-gradient",
+      },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: arabic_mastery, // replace with an actual image of the project if available
+    source_code_link: "https://www.arabic-mastery.elda7e7.com/", // replace with the actual repository link
+    live_demo_link: "https://www.arabic-mastery.elda7e7.com/", // link to the live project
   },
 ];
+
 
 export { services, technologies, experiences, testimonials, projects };
